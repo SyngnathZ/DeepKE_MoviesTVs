@@ -15,7 +15,7 @@ def main():
     # 写入具体内容
     csv_write.writerow(initArray)
 
-    file = open("movies_name.txt", encoding='utf-8')
+    file = open("input.txt", encoding='utf-8')
     while 1:
         line = file.readline()
         if not line:
