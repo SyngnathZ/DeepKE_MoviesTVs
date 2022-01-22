@@ -47,7 +47,6 @@ def main():
             writeArray[5] = 0  # 以累加的方式算offset
             for i in range(int(indexArray[1])):
                 writeArray[5] += len(namelist[i]) + 1
-            writeArray[5] += 1  # 修正offset
             csv_write.writerow(writeArray)
 
         if indexArray[2] != '':  # Year输入
