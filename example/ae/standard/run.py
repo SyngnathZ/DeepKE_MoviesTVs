@@ -28,7 +28,7 @@ def main(cfg):
     cfg.pos_size = 2 * cfg.pos_limit + 2
     logger.info(f'\n{cfg.pretty()}')
 
-    wandb.init(project="DeepKE_AE_Standard", name=cfg.model_name)
+    wandb.init(project="deepke_moviestvs", name=cfg.model_name)
     wandb.watch_called = False
 
     __Model__ = {

@@ -1,0 +1,5 @@
+[default]
+entity = hui-h
+project = deepke_moviestvs
+base_url = https://api.wandb.ai
+
